@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    padding: 25px;
+    background: #d4d4d4;
+    display: flex;
+    gap: 40px;
+    /* using justify properties--- it works for x axis */
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* using align-items property---- it works for y axis */
+    height: 350px;
+    align-items: center;
+    /* align-items: start; */
+    /* align-items: end; */
+
+    /* for the item direction */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+
+    /* for the content wrapping in column */
+    flex-wrap: wrap;
+}
+.child{
+    border: 2px solid rgb(21, 185, 197);
+    background: rgb(6, 135, 137);
+    padding: 20px;
+    font-size: 18px;
+}
